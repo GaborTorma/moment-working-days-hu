@@ -1,15 +1,15 @@
-import moment from '@gabortorma/moment-working-days';
+import moment from '@gabortorma/moment-working-days'
 
-import specialDays from './special-days.js';
+import specialDays from './special-days.js'
 
-const holidays = [];
-const forcedBusinessDays = [];
+const holidays = []
+const forcedBusinessDays = []
 
 for (const day of specialDays) {
 	if (day.type === '1') {
-		holidays.push(day.date);
+		holidays.push(day.date)
 	} else {
-		forcedBusinessDays.push(day.date);
+		forcedBusinessDays.push(day.date)
 	}
 }
 
@@ -18,6 +18,6 @@ moment.updateLocale('hu', {
 	holidayFormat: 'YYYY-MM-DD',
 	forcedBusinessDays,
 	forcedBusinessDaysFormat: 'YYYY-MM-DD',
-});
+})
 
-export default moment;
+export default moment
