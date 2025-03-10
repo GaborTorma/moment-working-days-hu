@@ -1,6 +1,6 @@
 {
 	"name": "@gabortorma/moment-working-days-hu",
-	"version": "2.1.1",
+	"version": "2.2.0",
 	"description": "[@gabortorma/moment-working-days](https://github.com/GaborTorma/moment-working-days) with updated hungarian holidays and forced business days.",
 	"main": "index.js",
 	"scripts": {
